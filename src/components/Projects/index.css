@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jost&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Serif+Display&family=Jost&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jost&family=Varela+Round&display=swap');
+
+.project-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.title-project{
+  font-family: varela round;
+  font-size: 26px;
+  margin-bottom: 22px;
+  text-decoration: underline;
+  text-decoration-color: #FDC435;
+  text-decoration-thickness: 4px;
+}
+
+.project-container-1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-radius: 8px;
+align-items: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 40px;
+cursor: pointer;
+}
+.project-img{
+  width: 54%;
+  height: 190px;
+}
+.project-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 12px;
+  width: 45%;
+}
+.project-name{
+  font-family: dm serif display;
+  font-size: 20px;
+}
+.para{
+  font-family: varela round;
+  color: gray;
+  font-size: 14px;
+}
+.view-btn{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family: varela round;
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.project-container-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 40px;
+  cursor: pointer;
+  }
+
+  .project-container-3{
+    display: flex;
+    flex-direction: row;
+   border-radius: 8px;
+    justify-content: space-between;
+    
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+    cursor: pointer;
+    }
+
+    .social-icons-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 80px;
+    }
+    .icon{
+      width: 20px;
+      height: 20px;
+    }
+    .copy-icon{
+      margin: 0px;
+      margin-top: 8px;
+    }
+    .copy-text{
+      margin-top: 0px;
+      font-size: 10px;
+    }

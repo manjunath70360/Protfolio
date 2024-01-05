@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+.nav-bar{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    text-decoration: none;
+margin-top: 24px;
+  position: absolute;
+    background-color: transparent;
+    
+}
+.name-logo{
+    font-family: abel;
+    font-weight: 600;
+    margin-top: 0px;
+    font-size: 20px;
+    
+}
+p{
+    margin-top: 0px;
+}
+.nav-btn{
+    width: 35%;
+    display: flex;
+    padding-right: 60px;
+    justify-content: space-between;
+    text-decoration: none;
+   
+
+}
+.nav-text{
+    list-style: none;
+    font-family: ubuntu;
+    text-decoration: none;
+    color: black;
+    padding-top: 0px;
+    font-size: 16px;
+  
+   
+}
